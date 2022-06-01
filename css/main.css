@@ -1,0 +1,458 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem; }
+
+.py-1 {
+  padding: 1rem 0; }
+
+.py-1 {
+  padding: 2rem 0; }
+
+.py-1 {
+  padding: 3rem 0; }
+
+.py-1 {
+  padding: 4rem 0; }
+
+.m-1 {
+  margin: 1rem 0; }
+
+.m-1 {
+  margin: 2rem 0; }
+
+.m-1 {
+  margin: 3rem 0; }
+
+.m-1 {
+  margin: 4rem 0; }
+
+.btn-light {
+  border-radius: 5px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 1s; }
+
+.btn-light {
+  color: white;
+  background-color: red; }
+
+*[class^="btn-"]:hover {
+  background-color: white;
+  color: black; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "roboto","sans-serfi "; }
+
+a {
+  text-decoration: none; }
+
+ul, li {
+  list-style: none; }
+
+img {
+  width: 100%; }
+
+.curent-page-link {
+  border: 1px solid transparent; }
+
+.header {
+  width: 100%;
+  background: url(../images/hero.jpg) no-repeat center top;
+  background-size: cover;
+  height: 100vh;
+  position: relative; }
+  .header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; }
+    .header-content h1 {
+      font-size: 50px;
+      text-align: center; }
+    .header-content p {
+      font-size: 30px;
+      color: #aa2d28;
+      margin: 15px;
+      text-align: center; }
+    .header-content a {
+      color: azure;
+      background-color: #aa2d28;
+      font-size: 25px;
+      border-radius: 10%;
+      text-align: center;
+      display: block;
+      padding: 15px; }
+  .header-pages {
+    height: auto;
+    width: 100%;
+    background: url(../images/hero.jpg) no-repeat center top;
+    background-size: cover;
+    position: relative; }
+    .header-pages-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white; }
+
+.nav {
+  width: 100%;
+  padding: 15px; }
+  .nav .container {
+    display: flex;
+    justify-content: space-between; }
+  .nav .logo {
+    font-size: 30px;
+    color: #aa2c2800;
+    background-color: rgba(137, 43, 226, 0.151);
+    background: url(../images/alireza.JPG) no-repeat center top;
+    background-size: cover;
+    height: 150px;
+    width: auto;
+    border-radius: 50%;
+    transition: 2s; }
+    .nav .logo:hover {
+      color: #aa2d28; }
+  .nav ul {
+    display: flex; }
+    .nav ul > li {
+      padding: 0 15px; }
+      .nav ul > li > a {
+        color: white;
+        font-size: 18px;
+        padding: 0.5rem 0;
+        transition: 1s;
+        border-bottom: 1px solid transparent; }
+        .nav ul > li > a:hover {
+          border-bottom: 1px solid white; }
+        .nav ul > li > a.curent-page-link {
+          border-bottom-color: red;
+          color: aqua; }
+
+.my-skills {
+  text-align: center; }
+  .my-skills h2 {
+    margin-bottom: 1rem;
+    font-size: 30px;
+    color: black; }
+
+.skill-col {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px; }
+  .skill-col .skill-icon {
+    font-size: 50px; }
+  .skill-col .skill-js {
+    color: burlywood; }
+  .skill-col .skill-title {
+    margin: 1rem; }
+  .skill-col .skill-dic {
+    line-height: 1.8rem; }
+  .skill-col .skill-an {
+    color: darkorange; }
+  .skill-col .skill-re {
+    color: #aa2d28; }
+  .skill-col .skill-ph {
+    color: dodgerblue; }
+
+.what-did {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 1rem; }
+  .what-did > div {
+    background-color: #aa2d28;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 3rem 0;
+    width: 100%; }
+    .what-did > div:nth-child(even) {
+      background-color: #9c9c9c; }
+    .what-did > div i {
+      font-size: 50px;
+      margin-bottom: 10px;
+      color: #aa2d28; }
+    .what-did > div p {
+      margin: 1rem 0;
+      font-weight: bold;
+      font-size: 20px; }
+    .what-did > div span {
+      font-size: 30px; }
+
+.my-job {
+  margin: 15px; }
+  .my-job p {
+    margin: 10px; }
+
+.st {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  display: block; }
+
+.st::after {
+  content: "";
+  background-color: #aa2d28;
+  width: 100px;
+  height: 3px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 0); }
+
+.parent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  .parent .single-jobs {
+    display: flex;
+    flex-direction: column; }
+    .parent .single-jobs-icon {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background-color: gray;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      position: relative; }
+      .parent .single-jobs-icon i {
+        color: white;
+        font-size: 50px; }
+      .parent .single-jobs-icon span {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        transform: translate(-50%, -25%);
+        font-size: 25px;
+        background-color: #aa2d28;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%; }
+    .parent .single-jobs h3 {
+      color: gray; }
+
+.footer {
+  width: 100%;
+  height: 90px;
+  background-color: gray; }
+  .footer p {
+    font-size: 17px; }
+  .footer i {
+    font-size: 17px;
+    padding: 25px 0; }
+
+.about-me-wraper h1 {
+  text-align: center;
+  margin: 15px; }
+
+.about-me-wraper p {
+  text-align: center;
+  margin-bottom: 15px; }
+
+.about-me {
+  display: flex; }
+  .about-me-img {
+    width: 400px;
+    margin-right: 1rem; }
+  .about-me-content {
+    background-color: rgba(128, 128, 128, 0.658);
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 3px solid red; }
+    .about-me-content p {
+      margin-top: 1rem; }
+
+.my-award {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  margin-top: 1rem; }
+  .my-award i {
+    font-size: 50px;
+    color: #aa2d28;
+    text-align: center;
+    display: block; }
+  .my-award h3 {
+    color: #aa2d28;
+    text-align: center;
+    margin: 1rem 0; }
+
+.my-skills {
+  text-align: center;
+  background-color: #464545;
+  padding: 2rem; }
+  .my-skills .progress {
+    margin-top: 1rem; }
+    .my-skills .progress h3 {
+      text-align: left;
+      font-size: 16px; }
+    .my-skills .progress-line {
+      background-color: white;
+      height: 40px;
+      margin-top: 5px;
+      border-radius: 15px; }
+    .my-skills .progress-inner {
+      background-color: #aa2d28;
+      height: inherit;
+      border-radius: 15px; }
+      .my-skills .progress-inner-60 {
+        width: 60%; }
+      .my-skills .progress-inner-70 {
+        width: 70%; }
+      .my-skills .progress-inner-100 {
+        width: 95%; }
+      .my-skills .progress-inner-100 {
+        width: 90%; }
+      .my-skills .progress-inner-90 {
+        width: 80%; }
+
+.people-says p {
+  text-align: center; }
+
+.people-says-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin-top: 1rem; }
+  .people-says-cols .people-says-single p {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 00.5rem;
+    text-align: left;
+    margin-bottom: 1rem; }
+  .people-says-cols .people-says-single img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 1rem; }
+
+.works-wraper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem; }
+  .works-wraper .any-work {
+    position: relative;
+    overflow: hidden; }
+    .works-wraper .any-work img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: all 1s; }
+    .works-wraper .any-work:hover img {
+      transform: scale(1.1); }
+
+.contact-form {
+  width: 100%; }
+  .contact-form .input-area {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas: "name email" "subject phone" "message message"; }
+    .contact-form .input-area .input-filed {
+      padding: 1rem 2rem; }
+    .contact-form .input-area .message {
+      height: 200px;
+      resize: none; }
+    .contact-form .input-area .input-name {
+      grid-area: name; }
+    .contact-form .input-area .input-email {
+      grid-area: email; }
+    .contact-form .input-area .input-subject {
+      grid-area: subject; }
+    .contact-form .input-area .input-phone {
+      grid-area: phone; }
+    .contact-form .input-area .input-message {
+      grid-area: message; }
+  .contact-form button[type="submit"] {
+    background-color: gray;
+    width: 50%;
+    height: 50px;
+    transform: translate(50%, 0);
+    margin-top: 1rem; }
+
+.contact-info {
+  background-color: gray;
+  padding: 20px; }
+  .contact-info .container {
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #444343;
+    padding: 20px;
+    border-bottom: 10px solid red; }
+    .contact-info .container i {
+      font-size: 30px; }
+
+@media (max-width: 800px) {
+  .header {
+    height: 50vh; }
+  -pages {
+    height: auto; }
+  .skill-col, .what-did, .people-says-cols, .works-wraper {
+    grid-template-columns: repeat(2, 1fr); }
+  .what-did div {
+    border: 1px solid #aa2d28; }
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+  .parent .single-jobs-icon {
+    width: 80px;
+    height: 80px; }
+  .single-jobs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 600px) {
+  .skill-col, .what-did, .people-says-cols, .works-wraper, .my-award {
+    grid-template-columns: repeat(1, 1fr); }
+  .what-did div {
+    border: 1px solid #aa2d28; }
+  .about-me {
+    flex-direction: column; }
+    .about-me img {
+      width: 100%;
+      background: url(../images/alireza.JPG) no-repeat center center;
+      background-size: cover;
+      margin-right: 0; }
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+  .parent .single-jobs-icon {
+    width: 80px;
+    height: 80px; }
+  .single-jobs {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+  .nav .container {
+    flex-direction: row;
+    align-items: flex-start; }
+  .header-content h1 {
+    font-size: 20px;
+    margin: 5px;
+    color: #000; }
+  .nav .logo {
+    font-size: 10px;
+    height: 50px;
+    width: 50px;
+    background: url(../images/alireza.JPG) no-repeat center center;
+    background-size: cover; } }
